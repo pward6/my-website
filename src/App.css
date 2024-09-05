@@ -1,0 +1,21 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Enable vertical scrolling */
+  min-height: 100vh; /* Ensure container takes at least full viewport height */
+  flex: 1; /* Allow container to grow and fill the available space */
+}

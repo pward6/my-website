@@ -1,0 +1,24 @@
+/* Project.css */
+
+.project-container {
+    padding: 20px;
+    margin-bottom: 20px; /* Space between sections */
+    box-sizing: border-box; /* Include padding in width and height */
+    width: 100%; /* Ensure full width */
+    overflow: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .proj-text-section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin-left: 20px;
+  }
+  
+  .proj-text-section img {
+    max-width: 100%; /* Ensure images fit within container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    margin-bottom: 10px; /* Space between images */
+  }
+  
